@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.fondo-marcador {
+	background: #FFC; 
+}
+
+/* Clase para texto más pequeño */
+.texto-small {
+	font-size:14px;	
+}
+
+img{
+  max-height: 110px;
+}

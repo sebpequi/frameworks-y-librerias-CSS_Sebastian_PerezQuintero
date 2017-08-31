@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.margin-cero {
+	margin-top:0 !important;
+	margin-bottom: 0 !important;
+}
+
+.margin-topsmall {
+	margin-top: 3px !important;
+}
+
