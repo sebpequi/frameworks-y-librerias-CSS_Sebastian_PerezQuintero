@@ -1,14 +1,75 @@
 @charset "utf-8";
 /* CSS Document */
-.fondo-marcador {
-	background: #FFC; 
+body {
+	width:100%;
+	height:100%;
+	background: url(../img/fondo-restaurante.jpg) no-repeat center top fixed;
+	background-size: auto 100vh;	
 }
 
-/* Clase para texto más pequeño */
-.texto-small {
-	font-size:14px;	
+.color-fondo {
+	background: rgba(255, 255, 255, 0.7); 
 }
 
-img{
-  max-height: 110px;
+.margin-inferior {
+	margin-bottom:20px;	
+	border-radius: 0 0 5px 5px;
+}
+
+/* Clases para personalizar el area de navegacion */
+.color-menumovil {
+	background-color: #f57c00 !important;	
+}
+
+.color-menu {
+	background-color: rgba(255, 255, 141, 0.5) !important;	
+}
+
+.navegacion-movil {
+	color: white;
+	font-size: 16px;
+	margin-left: 30px;
+	vertical-align:top;	
+}
+
+.padding-navegacion {
+	padding:1rem;	
+}
+
+.imgfav-responsive {
+	max-width:30%;	
+}
+
+.margin-lateral {
+	margin-left:2px;
+	margin-right:2px;	
+}
+
+.fav-odd {
+	background-color: rgba(244, 244, 244, 0.3) !important;
+}
+
+/* clase para las estrellas que faltan en la calificación del historial */
+.falta {
+	background-color:#bdbdbd  !important;
+	color:black;	
+}
+
+/* Clase para personalizar los posts */
+.margin-boton {
+	margin-top:10px;
+	margin-right: 1rem;	
+}
+
+.padding-comment {
+	padding-bottom:0px !important;
+}
+
+.fondo-comment {
+	background:#e6e6e6;	
+}
+
+.img-commentpost {
+	width:70px !important;
+	height:70px !important;	
 }

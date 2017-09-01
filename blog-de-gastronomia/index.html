@@ -15,11 +15,262 @@
 </head>
 
 <body>
-<div class="grid-container">
+<div class="grid-container color-fondo margin-inferior">
+	<!-- Area del titulo del blog -->
     <div class="grid-x">
-      <div class="small-3 medium-3 cell text-center">
-        
+      <div class="small-12 medium-4 cell">
+		<h1 class="h3 text-center">Mis gustos al comer</h1>
+        <h2 class="subheader h4 text-right">¡Saboreando la vida!</h2>
       </div>
+      <div class="small-12 medium-4 cell"></div>
+    </div>
+    <!-- Area del contenido -->
+    <div class="grid-x">
+    	<!-- Inicio del area de navegacion -->
+        <div class="small-12 medium-4 cell margin-inferior">
+        	<!-- codigo para visualizar el area de navegacion de moviles -->
+            <div class="title-bar color-menumovil" data-responsive-toggle="area-de-navegacion" data-hide-for="medium">
+              <button class="menu-icon" type="button" data-toggle>
+              <div class="title-bar-title navegacion-movil"> Navegación</div>
+              </button>
+            </div>
+            <!-- Aquí pondremos toda el area de navegacion -->
+            <div class="color-menu vertical menu padding-navegacion" id="area-de-navegacion" data-animate="hinge-in-from-top spin-out">
+            	<!-- Buscador -->
+                <div class="input-group">
+                    <span class="input-group-label"><i class="fi-magnifying-glass"></i></span>
+                    <input class="input-group-field" type="text" placeholder="Buscar...">
+                    <div class="input-group-button">
+                        <input type="submit" class="button" value="buscar">
+                    </div>
+                </div> 
+                <!-- Menu -->
+                <ul class="vertical menu">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Mis delicias</a></li>
+                  <li><a href="#">¡Me encantan!</a></li>
+                </ul> 
+                <!-- favoritos -->
+                <h2 class="h4">Mis comidas favoritas:</h2>
+                <div class="grid-x">
+                	<!-- favorito 1 -->
+                	<div class="small-6 medium-4">
+                    	<div class="card margin-lateral">
+                            <img src="img/jugos.jpg" />
+                        </div>
+                    </div>
+                	<!-- favorito 2 -->
+                	<div class="small-6 medium-4">
+                    	<div class="card margin-lateral">
+                            <img src="img/bunuelos.jpg" />
+                        </div>
+                    </div>
+                	<!-- favorito 3 -->
+                	<div class="small-6 medium-4">
+                    	<div class="card margin-lateral">
+                            <img src="img/helado.jpg" />
+                        </div>
+                    </div>
+                	<!-- favorito 4 -->
+                	<div class="small-6 medium-4">
+                    	<div class="card margin-lateral">
+                            <img src="img/empanadas.jpg" />
+                        </div>
+                    </div>
+                	<!-- favorito 5 -->
+                	<div class="small-6 medium-4">
+                    	<div class="card margin-lateral">
+                            <img src="img/ensalada-de-frutas.jpg" />
+                        </div>
+                    </div>
+                	<!-- favorito 6 -->
+                	<div class="small-6 medium-4">
+                    	<div class="card margin-lateral">
+                            <img src="img/pastas.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <!-- historial -->
+                <h2 class="h4">Historial: <small style="color:#f57c00">Los 5 más visitados</small></h2>
+                <ul class="no-bullet">
+                	<li class="fav-odd">
+                    	<div class="grid-x">
+                        	<div class="small-12">
+                            	<a href="#" class="menu-text"> Como hacer unos ricos frijoles</a>
+                            </div>
+                            <div class="small-5 small-offset-7">
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge falta float-left margin-lateral"><i class="fi-star"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                	<li>
+                    	<div class="grid-x">
+                        	<div class="small-12">
+                            	<a href="#" class="menu-text"> ¡Jugos deliciosos!</a>
+                            </div>
+                            <div class="small-5 small-offset-7">
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                	<li class="fav-odd">
+                    	<div class="grid-x">
+                        	<div class="small-12">
+                            	<a href="#" class="menu-text"> Bocadillos para el fin de semana</a>
+                            </div>
+                            <div class="small-5 small-offset-7">
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge falta float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge falta float-left margin-lateral"><i class="fi-star"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                	<li>
+                    	<div class="grid-x">
+                        	<div class="small-12">
+                            	<a href="#" class="menu-text"> Aprendiendo: Una ensalada deliciosa</a>
+                            </div>
+                            <div class="small-5 small-offset-7">
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge falta float-left margin-lateral"><i class="fi-star"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                	<li class="fav-odd">
+                    	<div class="grid-x">
+                        	<div class="small-12">
+                            	<a href="#" class="menu-text"> Disfrutando del buen comer</a>
+                            </div>
+                            <div class="small-5 small-offset-7">
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            	<span class="badge success float-left margin-lateral"><i class="fi-star"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Inicio del area de posts -->
+    	<div class="small-12 medium-8 cell padding-navegacion">
+        	<!-- Post #1 -->
+        	<div class="card">
+                <div class="card-section">
+                    <h2 class="h3">¿Cómo hacer unos ricos frijoles?</h2>
+                    <h4 class="subheader h6">29 de nov del 2016</h4>
+                </div>
+                <img src="img/bandeja-paisa-post.jpg" alt="Bandeja paisa" />
+                <div class="card-section">
+                	<p class="text-justify">El texto va aqui</p>
+                </div>
+                <div class="card-divider padding-comment">
+                	<i class="fi-torso" style="font-size:40px; margin-right:10px;"></i>
+                    <textarea placeholder="Comentarios..."></textarea>
+                </div>
+                <div class="grid-x align-right fondo-comment">
+                    <button class="hollow button small margin-boton" href="#">Comentar</button>
+                </div>
+                <!-- Comentarios realizados -->
+                <div class="grid-x padding-navegacion">
+                    <!-- comentario realizado 1 -->
+                	<div class="small-12">
+                    	<div class="media-object">
+                          <div class="media-object-section">
+                            <div class="thumbnail">
+                              <img src="img/sara.jpg" class="img-commentpost">
+                            </div>
+                          </div>
+                          <div class="media-object-section">
+                            <h4>Yada <small>1 de dic del 2016</small></h4>
+                            <p>Me encantan tus jugos!</p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- comentario realizado 2 -->
+                	<div class="small-12">
+                    	<div class="media-object">
+                          <div class="media-object-section">
+                            <div class="thumbnail">
+                              <img src="img/juli.jpg" class="img-commentpost">
+                            </div>
+                          </div>
+                          <div class="media-object-section">
+                            <h4>Johana <small>29 de nov del 2016</small></h4>
+                            <p>Super delicioso, que rico para un buen desayuno.</p>
+                            <p>Ah! y para luego de terminar de hacer ejercicio, super!</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin post #1 -->            
+        	<!-- Post #2 -->
+        	<div class="card">
+                <div class="card-section">
+                    <h2 class="h3">¿Cómo hacer unos ricos frijoles?</h2>
+                    <h4 class="subheader h6">28 de nov del 2016</h4>
+                </div>
+                <img src="img/jugos-post.jpg" alt="Bandeja paisa" />
+                <div class="card-section">
+                	<p class="text-justify">El texto va aqui</p>
+                </div>
+                <div class="card-divider padding-comment">
+                	<i class="fi-torso" style="font-size:40px; margin-right:10px;"></i>
+                    <textarea placeholder="Comentarios..."></textarea>
+                </div>
+                <div class="grid-x align-right fondo-comment">
+                    <button class="hollow button small margin-boton" href="#">Comentar</button>
+                </div>
+                <!-- Comentarios realizados -->
+                <div class="grid-x padding-navegacion">
+                    <!-- comentario realizado 1 -->
+                	<div class="small-12">
+                    	<div class="media-object">
+                          <div class="media-object-section">
+                            <div class="thumbnail">
+                              <img src="img/yada.jpg" class="img-commentpost">
+                            </div>
+                          </div>
+                          <div class="media-object-section">
+                            <h4>Yada <small>1 de dic del 2016</small></h4>
+                            <p>Me encantan tus jugos!</p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- comentario realizado 2 -->
+                	<div class="small-12">
+                    	<div class="media-object">
+                          <div class="media-object-section">
+                            <div class="thumbnail">
+                              <img src="img/johana.jpg" class="img-commentpost">
+                            </div>
+                          </div>
+                          <div class="media-object-section">
+                            <h4>Johana <small>29 de nov del 2016</small></h4>
+                            <p>Super delicioso, que rico para un buen desayuno.</p>
+                            <p>Ah! y para luego de terminar de hacer ejercicio, super!</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin post #2 -->            
+        </div>    
     </div>
 
 	

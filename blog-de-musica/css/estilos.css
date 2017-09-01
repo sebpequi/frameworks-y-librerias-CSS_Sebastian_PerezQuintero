@@ -2,6 +2,19 @@ html {
 	width:100%;
 	height:100%;
 }
+
+@media (max-width: 575px) { 
+h2 {
+	font-size:1.1rem;
+}
+}
+
+@media (min-width: 576px) { 
+h2 {
+	font-size:1.7rem;
+}
+}
+
 /* Codigo para personalizar el fondo del body */
 .body-fondo {
 	background:	#f2f2f2;
@@ -10,3 +23,35 @@ html {
 	background:url(../img/background2.jpg) no-repeat center center fixed;
 }
 
+/* Clase para el area del logo */
+.area-logo {
+	min-height:70px;
+	background:#1a237e;
+	padding-top:5px !important;
+	padding-bottom:5px !important;		
+}
+
+/* Codigo utilizado para el area del header en las redes sociales */
+.icono-social {
+	max-height: 30px;	
+}
+
+/* Codigo para los posts */
+.margin-post {
+	margin-top:15px !important;
+	margin-bottom:5px !important;	
+}
+
+/* Clases generales */
+.margin-bottomsmall {
+	margin-bottom: 5px !important;
+}
+
+.margin-lateral {
+	margin-left:2px !important;
+	margin-right:2px !important;	
+}
+
+.margin-topsmall {
+	margin-top: 10px !important;	
+}
