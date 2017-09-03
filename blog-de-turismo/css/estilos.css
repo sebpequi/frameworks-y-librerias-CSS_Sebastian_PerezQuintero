@@ -33,6 +33,10 @@ body {
 	margin-bottom:15px !important;	
 }
 
+.card-content {
+	overflow:hidden;	
+}
+
 /* Clases para personalizar el area del logo y el menu */
 .logo-img {
 	margin-top:20px;	
@@ -85,6 +89,8 @@ nav {
 
 @media only screen and (min-width: 601px) {
 .img-post {
+	width:100% !important;
+	max-width:300px !important;
 	margin-right:15px !important;
 	margin-bottom:10px !important;	
 }
