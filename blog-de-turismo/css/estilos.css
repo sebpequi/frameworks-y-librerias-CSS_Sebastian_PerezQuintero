@@ -1,5 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+	background: #4a148c url(../img/fondo-turismo.jpg) center 10vh no-repeat fixed;
+
+	background-size:auto 90vh;
+}
+
+.container {
+	width:100% !important;	
+	margin:0 !important;
+}
+
+.container .row {
+	margin-left:0 !important;
+	margin-right:0 !important;	
+}
+
 .margin-cero {
 	margin-top:0 !important;
 	margin-bottom: 0 !important;
@@ -8,4 +24,97 @@
 .margin-topsmall {
 	margin-top: 3px !important;
 }
+
+.margin-bottomsmall {
+	margin-bottom: 5px !important;
+}
+
+.margin-divider {
+	margin-bottom:15px !important;	
+}
+
+/* Clases para personalizar el area del logo y el menu */
+.logo-img {
+	margin-top:20px;	
+	border-radius: 5px;
+	border:2px solid white;
+}
+
+.poner-abajo {
+	vertical-align:bottom;
+}
+
+nav {
+	background:#4a148c !important;
+	box-shadow:none !important;
+}
+
+.texto-slogan {
+	font-size:2.5rem;
+	color:white;	
+	display:block;
+}
+
+.sombra-texto {
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000; 	
+}
+
+@media only screen and (max-width: 600px) {
+.center-alignmovil {
+	text-align:center;	
+}
+}
+
+@media only screen and (min-width: 600px) {
+.texto-slogan {
+	margin-top:2rem !important;
+}
+}
+
+
+/* Clases para personalizar los posts */
+.margin-titlepost {
+	margin: 15px 20px 5px 20px !important;	
+}
+
+.parrafos {
+	margin-bottom:10px !important;
+	text-align:justify;	
+}
+
+
+@media only screen and (min-width: 601px) {
+.img-post {
+	margin-right:15px !important;
+	margin-bottom:10px !important;	
+}
+}
+
+/*** Codigo para el textarea del nuevo mensaje ***/
+.mensaje-publicacion {
+	color:	#673ab7 !important;
+}
+
+.mensaje-publicacion.active {
+	color:	#673ab7 !important;
+}
+
+.input-field .prefix.active {
+	color:	#673ab7 !important;
+}
+
+textarea.materialize-textarea:focus, input[type=text]:focus, input[type=email]:focus {      
+	border-bottom:1px solid #673ab7 !important;
+	box-shadow: 0 1px 0 0 #673ab7 !important;
+}
+
+/*** Codigo para personalizar el area del autor ***/
+.img-autor {
+	max-width:150px !important;
+	margin-left:auto !important;
+	margin-right:auto !important;	
+	display:block;
+}
+
+
 
